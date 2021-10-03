@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap");
+
+.card {
+  display: flex;
+  /* flex-direction: row; */
+  text-align: center;
+  justify-content: center;
+}
+
+.container {
+  /* text-align: center; */
+  /* justify-content: center; */
+  flex-direction: row;
+  width: 30%;
+}
+
+.title {
+  font-family: "Kaisei Tokumin", serif;
+  margin-bottom: 1rem;
+}
+
+.content {
+  box-shadow: 1px 1px 10px rgb(0.1, 0.1, 0.1);
+
+  /* margin-bottom: 1rem; */
+}
+
+.input {
+  height: 2rem;
+  width: 15rem;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.btnadd {
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+  height: 2rem;
+  width: 3rem;
+  outline: none;
+  cursor: pointer;
+}
